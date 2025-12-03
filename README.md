@@ -14,6 +14,11 @@ It simulates real-world washing machine operations such as program selection, wa
 The system is developed entirely in Embedded C using MPLAB X IDE and XC8 compiler, and tested on PICSimLab without requiring physical hardware.
 It demonstrates state-machine based design, peripheral interfacing, timing accuracy, and real-time embedded system control.
 
+Project Demo Video
+
+Watch the full working simulation of the washing-machine controller here:
+https://www.youtube.com/watch?v=qscuplNj33k
+
 ---
 
 ## **2. Project Objectives**
