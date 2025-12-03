@@ -233,12 +233,22 @@ Outputs tested:
 ```
 Internship_project.X/
 │
-├── nbproject/                 MPLAB project metadata
-├── build/                     Auto-generated build files
-├── dist/                      HEX, ELF, MAP outputs
-├── main.c                     Main application logic
-├── clcd.h                     LCD driver header
-└── Makefile                   Build configuration
+├── nbproject/                 # MPLAB X project configuration files
+├── main.c                     # Main application logic
+├── clcd.c                     # LCD driver source file
+├── clcd.h                     # LCD driver header
+├── digital_keypad.c           # Keypad interface logic
+├── digital_keypad.h           # Keypad interface header
+├── timers.c                   # Timer2 delay generator
+├── timers.h                   # Timer module header
+├── isr.c                      # Interrupt service routines (if used)
+├── washing_machine_header.h   # Central header file for globals/config
+├── washiing_machine_function_def.c   # Washing machine state functions
+├── washiing_machine_function_def.h   # Header for washing machine functions
+├── .gitignore                 # Ignore auto-generated files
+├── Makefile                   # Build configuration
+└── README.md                  # Project documentation
+
 ```
 
 ---
