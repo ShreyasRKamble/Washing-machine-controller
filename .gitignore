@@ -1,0 +1,38 @@
+# MPLAB X build folders
+build/
+dist/
+
+# MPLAB X private project settings
+nbproject/private/
+
+# Compiled object files
+*.o
+*.p1
+*.p1.d
+*.i
+*.d
+
+# Compiled hex/elf/map/list files
+*.hex
+*.elf
+*.map
+*.lst
+*.cmf
+*.hxl
+*.mum
+*.rlf
+*.sdb
+*.sym
+
+# Memory and config auto-generated files
+memoryfile.xml
+__eeprom.*
+
+# Temporary files
+*.log
+*.tmp
+*.cache
+
+# OS files
+.DS_Store
+Thumbs.db
