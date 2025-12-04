@@ -206,7 +206,7 @@ LCD displays startup animation and welcome messages.
 
 | Challenge                       | Solution                                 |
 | ------------------------------- | ---------------------------------------- |
-| Keypad bouncing                 | Added software debouncing                |
+| Keypad bouncing                 | Added delays                |
 | Short/long press identification | Counter-based detection                  |
 | Timing inaccuracies             | Calibrated Timer2                        |
 | Incorrect screen transitions    | Corrected state flags and edge detection |
